@@ -24,84 +24,84 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "NetDevOps": {
+        title: "netdevops",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
+          "Set up a Jenkinsfile to automate configuration deployment on cisco network devices via an Ansible role I created.",
+        techStack: "Ansible, Jenkins, Python",
+        link: "https://github.com/MozkaGit/NetDevOps",
+        open: "https://github.com/MozkaGit/ansible-role-netdevops",
         image: "./assets/nomansland.png"
       },
-      Truth: {
-        title: "truth",
+      TorrentOps: {
+        title: "torrentops",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+          "Containerized nodejs application to interact with APIs. Setting up environment variables to customize deployment. A GitHub pipeline was set up for deployment on the Docker registry.",
+        techStack: "Docker, GitHub Actions, NodeJS",
+        link: "https://github.com/MozkaGit/docker-torrent-downloader",
+        open: "https://github.com/MozkaGit/docker-torrent-downloader/actions/workflows/registry.yml",
         image: "./assets/truth.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      2048: {
+        title: "2048",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
+          "This project aims to deploy the game 2048 contained in a Dockerfile on Elastic Beanstalk using Terraform.",
+        techStack: "Terraform, Docker, AWS, GitHub Actions",
         link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
+        open: "https://github.com/MozkaGit/terraform-elasticbeanstalk-docker/actions/workflows/deploy.yml",
         image: "./assets/talltales.png"
       },
       Portfolio: {
-        title: "portfolio.js",
+        title: "portfolio",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
+          "This project aims to deploy a static website (portfolio) on an Amazon S3 bucket using Terraform.",
+        techStack: "Terraform, AWS, GitHub Actions",
+        link: "https://github.com/MozkaGit/terraform-s3-static-website",
+        open: "https://github.com/MozkaGit/terraform-s3-static-website/actions/workflows/build.yaml",
         image: "./assets/portfolio.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "On hold.": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "On hold.",
+        techStack: "On hold.",
+        link: "",
+        open: ""
       },
-      "Adam A.I.": {
+      "On hold.": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "On hold.",
+        techStack: "On hold.",
+        link: "",
+        open: ""
       },
-      "Distributed Logging and Monitoring System": {
+      "On hold.": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+          "On hold.",
+        techStack: "On hold.",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          ""
       },
-      "Odin Bot": {
+      "On hold.": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
+          "On hold.",
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
+        link: "",
         open: ""
       },
-      "Game Centre": {
+      "On hold.": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+          "On hold.",
+        techStack: "On hold.",
+        link: "",
         open: ""
       },
-      "Minimax Stonehenge": {
+      "On hold.": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
+          "On hold.",
+        techStack: "On hold.",
+        link: "",
         open: ""
       }
     };
@@ -109,7 +109,7 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ software-creations</span>
+          <span className="section-title">/ devops-creations</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
