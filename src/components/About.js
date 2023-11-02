@@ -19,24 +19,22 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I am currently a <b>DevOps Engineer</b> at
+        <a> Pozos</a>. At the same time, I am preparing for
+        the <a> Certified Kubernetes Administrator</a>, <a> Terraform Associate</a> and <a> AWS Cloud Practitioner</a> certifications.
       </p>
     );
     const two = (
       <p>
         Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        tech industry. I also play a video games. And practicing fitness.
       </p>
     );
     const three = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          gazi.jarin@mail.utoronto.ca
+        <a href="mailto:mdiaby@mozka.dev">
+          mdiaby@mozka.dev
         </a>{" "}
         and let's talk.
       </p>
@@ -44,12 +42,12 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "Javascript ES6+",
-      "Python",
-      "React.js",
-      "Java",
-      "Node.js",
-      "HTML & CSS"
+      "Docker",
+      "Kubernetes",
+      "GitLab-CI",
+      "Jenkins",
+      "Ansible",
+      "Terraform"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -63,7 +61,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I have been working with:"}
+              {"Here are some of the main technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
@@ -76,7 +74,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"./assets/me2.jpg"} />
+              <img src={"./assets/ava.jpeg"} />
             </div>
           </div>
         </FadeInSection>
