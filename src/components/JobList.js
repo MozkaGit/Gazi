@@ -82,30 +82,32 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+    Pozos: {
+      jobTitle: "DevOps Engineer at @",
+      duration: "OCT 2023 - PRESENT",
       desc: [
-        "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
-        "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+        "Implementation of containerization of a Python application with Docker, enabling teams to avoid the problems of putting the application into each new version of the application.",
+        "Establishment of a private registry in the form of a container to securely store over 100 images and facilitate the distribution of artifacts to the company's various teams.",
+        "Creation of a docker-compose file to simplify and facilitate the execution of containers in various contexts.",
+        "Configuration of a GitHub Actions CI/CD pipeline to automate the deployment of new versions on the private registry and in production, saving development teams several hours a week."
       ]
     },
-    Wattpad: {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2020 - APR 2021",
+    "Reda Marketing": {
+      jobTitle: "DevOps Engineer at @",
+      duration: "JUL 2022 - OCT 2023",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "Reduced infrastructure costs by 25% by implementing containerization with Docker, orchestration via Kubernetes and infrastructure deployment on AWS.",
+        "Automated configuration of cloud instances using Jenkins, Terraform and Ansible, reducing the team's weekly manual work by 20h. the team's weekly manual workload.",
+        "Improved security and system availability through the implementation of DevSecOps practices in Jenkins pipelines pipelines and infrastructure monitoring with Grafana, reducing security vulnerabilities and cutting incident detection time. incidents."
       ]
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
+    Eazytraining: {
+      jobTitle: "DevOps Engineer intern @",
+      duration: "FEB 2022 - MAY 2022",
       desc: [
-        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "In response to slow and unreliable application deployments, I worked on the design and implementation of a high-performance CI/CD pipeline, integrating test and integration stages across several environments (review, staging, production) to improve the speed and reliability of updates.",
+        "Faced with the tedious management of development, test and production environments, I introduced automation via Docker and Kubernetes, reducing human error and ensuring environmental consistency.",
+        "Implementation of DevOps security practices using Ansible to manage secure server configurations. Implemented monitoring tools such as Prometheus and Grafana to monitor service performance and availability."
       ]
     },
     // Centivizer: {
@@ -123,13 +125,11 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
-      jobTitle: "Software Engineering Intern @",
+    "École du Génie Supérieur": {
+      jobTitle: "Systems, Networks & Cloud Computing Master's degree @",
       duration: "MAY 2019 - AUG 2019",
       desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sen- sors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        "Program: Linux/Windows Server administration, Kubernetes, AWS, Azure, OpenStack, PowerShell, Python, CCNP, VMWare, Ansible, Docker, Blockchain, Advanced IS security, Juniper, Palo Alto, IS project management."
       ]
     }
   };
