@@ -86,8 +86,8 @@ const JobList = () => {
       jobTitle: "DevOps Engineer at @",
       duration: "OCT 2023 - PRESENT",
       desc: [
-        "Implementation of containerization of a Python application with Docker, enabling teams to avoid the problems of putting the application into each new version of the application.",
-        "Establishment of a private registry in the form of a container to securely store over 100 images and facilitate the distribution of artifacts to the company's various teams.",
+        "Implemented containerization of a Python application with Docker, which helped to accelerate deployment frequency from once every 3 month to a monthly release while enabling teams to avoid production release problems.",
+        "Establishment of a private registry in the form of a container to securely store over 100 images (including versions) and facilitate the distribution of artifacts to the company's various teams.",
         "Creation of a docker-compose file to simplify and facilitate the execution of containers in various contexts.",
         "Configuration of a GitHub Actions CI/CD pipeline to automate the deployment of new versions on the private registry and in production, saving development teams several hours a week."
       ]
@@ -102,7 +102,7 @@ const JobList = () => {
       ]
     },
     Eazytraining: {
-      jobTitle: "DevOps Engineer intern @",
+      jobTitle: "DevOps Engineer, intern @",
       duration: "FEB 2022 - MAY 2022",
       desc: [
         "In response to slow and unreliable application deployments, I worked on the design and implementation of a high-performance CI/CD pipeline, integrating test and integration stages across several environments (review, staging, production) to improve the speed and reliability of updates.",
@@ -125,11 +125,11 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "École du Génie Supérieur": {
-      jobTitle: "Systems, Networks & Cloud Computing Master's degree @",
-      duration: "MAY 2019 - AUG 2019",
+    ESGI: {
+      jobTitle: "Cloud & DevOps Master's degree @",
+      duration: "OCT 2018 - JUL 2020",
       desc: [
-        "Program: Linux/Windows Server administration, Kubernetes, AWS, Azure, OpenStack, PowerShell, Python, CCNP, VMWare, Ansible, Docker, Blockchain, Advanced IS security, Juniper, Palo Alto, IS project management."
+        "Gained expertise: Linux/Windows Server administration, Docker, Kubernetes, AWS, Azure, OpenStack, Ansible, Terraform, PowerShell, Python, CCNP, VMWare, Blockchain, Advanced IT security, Juniper, Palo Alto, IT project management."
       ]
     }
   };
